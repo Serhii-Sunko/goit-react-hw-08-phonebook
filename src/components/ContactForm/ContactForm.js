@@ -5,10 +5,10 @@ import { StyledCont } from './ContactForm.styled';
 import { StyledLabel } from './ContactForm.styled';
 import { addContact } from '../../redux/operations';
 import { useSelector, useDispatch } from 'react-redux';
+import { nanoid } from '@reduxjs/toolkit';
 
 import { getContacts } from '../../redux/selectors';
 
-import { nanoid } from 'nanoid';
 import { toast } from 'react-toastify';
 
 function ContactForm() {

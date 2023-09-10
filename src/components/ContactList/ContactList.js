@@ -4,7 +4,6 @@ import { StyledItem } from './ContactList.styled';
 import { StyledButton } from './ContactList.styled';
 
 import { useSelector, useDispatch } from 'react-redux';
-// import { removeContact } from '../../redux/contactsSlice';
 import { deleteContact } from '../../redux/operations';
 
 const ContactList = () => {

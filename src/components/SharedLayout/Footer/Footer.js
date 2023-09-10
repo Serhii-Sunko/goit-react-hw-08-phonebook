@@ -7,14 +7,14 @@ export default function Footer() {
       <Container className=" justify-content-center">
         <Nav>
           <Nav.Item>
-            <Nav.Link target="_blank" href="https://github.com/OttoCarius">
+            <Nav.Link target="_blank" href="https://github.com/Serhii-Sunko">
               <BsGithub size={30} />
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
             <Nav.Link
               target="_blank"
-              href="https://linkedin.com/in/andrew-podlesnyi"
+              href="https://www.linkedin.com/in/serhii-sunko-5527a6144/"
             >
               <BsLinkedin size={30} />
             </Nav.Link>
